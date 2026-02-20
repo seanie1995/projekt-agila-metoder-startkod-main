@@ -16,15 +16,15 @@ export default async function Home() {
 
   return (
     <main>
-      {/* <h1>Products</h1> */}
+      <h1>Products</h1>
       <ProductList />
-      {/*   <div>
+      <div>
         {products.map((product) => (
           <h2 key={product.id}>
             {product.title} - {product.category?.name}
           </h2>
         ))}
-      </div> */}
+      </div>
     </main>
   );
 }

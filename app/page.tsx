@@ -1,6 +1,6 @@
 import Sidebar from "@/components/sidebar";
 import type { ProductsResponse } from "./types";
-
+import ProductList from "@/components/productList";
 const API_URL = "http://localhost:4000";
 const defaultLimit = "6";
 
@@ -13,19 +13,19 @@ export default async function Home() {
     `${API_URL}/products/?_limit=${defaultLimit}&_sort=id&_order=desc&_expand=category`,
   ).then((res) => res.json());
 
-  // console.log(products);
+  console.log(products);
 
   return (
     <main>
-      <Sidebar />
-      <h1>Products</h1>
-      <div>
+      {/* <h1>Products</h1> */}
+      <ProductList />
+      {/*   <div>
         {products.map((product) => (
           <h2 key={product.id}>
             {product.title} - {product.category?.name}
           </h2>
         ))}
-      </div>
+      </div> */}
     </main>
   );
 }

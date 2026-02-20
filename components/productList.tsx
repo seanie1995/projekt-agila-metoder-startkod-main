@@ -52,7 +52,7 @@ const products: {
 
 const ProductList = () => {
   return (
-    <section>
+    <>
       <table className="w-full rounded-2xl">
         <thead className="bg-neutral-100">
           <tr className=" text-sm text-neutral-600">
@@ -123,7 +123,7 @@ const ProductList = () => {
           ))}
         </tbody>
       </table>
-    </section>
+    </>
   );
 };
 

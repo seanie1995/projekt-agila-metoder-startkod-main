@@ -32,7 +32,7 @@ export const createProduct = async (product: Product): void => {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(product)
-  })
+  });
 
   console.log(await res.json());
 }
@@ -48,5 +48,5 @@ export const updateProductByID = async (id: number, updates): void => {
 }
 
 export const deleteProductByID = async (id: number): void => {
-  const res = await fetch(`${API_URL}/products/${id}`, { method: "DELETE" });
+  await fetch(`${API_URL}/products/${id}`, { method: "DELETE" });
 }

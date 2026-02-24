@@ -1,4 +1,5 @@
 import React from "react";
+import { Trash2, SquarePen } from "lucide-react";
 
 const products: {
   name: string;
@@ -53,7 +54,7 @@ const products: {
 const ProductList = () => {
   return (
     <>
-      <table className="w-full rounded-2xl">
+      <table className="w-full rounded-2xl  border-neutral-400 border">
         <thead className="bg-neutral-100">
           <tr className=" text-sm text-neutral-600">
             <th className="py-4 ">Product</th>
@@ -68,7 +69,7 @@ const ProductList = () => {
           {products.map((product) => (
             <tr
               key={product.serialNumber}
-              className="border-b-neutral-400 border text-sm"
+              className="border border-neutral-400  text-sm"
             >
               <td className="text-left py-4 px-4">
                 <div>
@@ -86,37 +87,8 @@ const ProductList = () => {
               </td>
               <td className="px-4">
                 <div className="flex flex-row justify-end gap-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    className="lucide lucide-square-pen-icon lucide-square-pen text-purple-600"
-                  >
-                    <path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
-                    <path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z" />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    className="lucide lucide-trash-icon lucide-trash text-red-600"
-                  >
-                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
-                    <path d="M3 6h18" />
-                    <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
-                  </svg>
+                  <SquarePen className="text-purple-700" />
+                  <Trash2 className="text-red-600" />
                 </div>
               </td>
             </tr>

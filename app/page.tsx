@@ -27,7 +27,7 @@ export default async function Home() {
 
         <main className="p-8">
           <h1>Products</h1>
-
+          <ProductList />
           <div>
             {products.map((product) => (
               <h2 key={product.id}>

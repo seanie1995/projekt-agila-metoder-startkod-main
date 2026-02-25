@@ -1,804 +1,8 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "Essence Mascara Lash Princess",
-      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
-      "price": 9.99,
-      "discountPercentage": 10.48,
-      "rating": 2.56,
-      "stock": 99,
-      "tags": [
-        "beauty",
-        "mascara"
-      ],
-      "brand": "Essence",
-      "sku": "BEA-ESS-ESS-001",
-      "weight": 4,
-      "dimensions": {
-        "width": 15.14,
-        "height": 13.08,
-        "depth": 22.99
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Would not recommend!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Eleanor Collins",
-          "reviewerEmail": "eleanor.collins@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very satisfied!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Lucas Gordon",
-          "reviewerEmail": "lucas.gordon@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Eleanor Collins",
-          "reviewerEmail": "eleanor.collins@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 48,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "5784719087687",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
-      "categoryId": 1
-    },
-    {
-      "id": 2,
-      "title": "Eyeshadow Palette with Mirror",
-      "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
-      "price": 19.99,
-      "discountPercentage": 18.19,
-      "rating": 2.86,
-      "stock": 34,
-      "tags": [
-        "beauty",
-        "eyeshadow"
-      ],
-      "brand": "Glamour Beauty",
-      "sku": "BEA-GLA-EYE-002",
-      "weight": 9,
-      "dimensions": {
-        "width": 9.26,
-        "height": 22.47,
-        "depth": 27.67
-      },
-      "warrantyInformation": "1 year warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Savannah Gomez",
-          "reviewerEmail": "savannah.gomez@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Awesome product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Christian Perez",
-          "reviewerEmail": "christian.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Poor quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nicholas Bailey",
-          "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 20,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "9170275171413",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
-      "categoryId": 1
-    },
-    {
-      "id": 3,
-      "title": "Powder Canister",
-      "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-      "price": 14.99,
-      "discountPercentage": 9.84,
-      "rating": 4.64,
-      "stock": 89,
-      "tags": [
-        "beauty",
-        "face powder"
-      ],
-      "brand": "Velvet Touch",
-      "sku": "BEA-VEL-POW-003",
-      "weight": 8,
-      "dimensions": {
-        "width": 29.27,
-        "height": 27.93,
-        "depth": 20.59
-      },
-      "warrantyInformation": "3 months warranty",
-      "shippingInformation": "Ships in 1-2 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Would buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Alexander Jones",
-          "reviewerEmail": "alexander.jones@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Elijah Cruz",
-          "reviewerEmail": "elijah.cruz@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Very dissatisfied!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Avery Perez",
-          "reviewerEmail": "avery.perez@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 22,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "8418883906837",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
-      "categoryId": 1
-    },
-    {
-      "id": 4,
-      "title": "Red Lipstick",
-      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-      "price": 12.99,
-      "discountPercentage": 12.16,
-      "rating": 4.36,
-      "stock": 91,
-      "tags": [
-        "beauty",
-        "lipstick"
-      ],
-      "brand": "Chic Cosmetics",
-      "sku": "BEA-CHI-LIP-004",
-      "weight": 1,
-      "dimensions": {
-        "width": 18.11,
-        "height": 28.38,
-        "depth": 22.17
-      },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Liam Garcia",
-          "reviewerEmail": "liam.garcia@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Ruby Andrews",
-          "reviewerEmail": "ruby.andrews@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Would buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Clara Berry",
-          "reviewerEmail": "clara.berry@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 40,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "9467746727219",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
-      "categoryId": 1
-    },
-    {
-      "id": 5,
-      "title": "Red Nail Polish",
-      "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
-      "price": 8.99,
-      "discountPercentage": 11.44,
-      "rating": 4.32,
-      "stock": 79,
-      "tags": [
-        "beauty",
-        "nail polish"
-      ],
-      "brand": "Nail Couture",
-      "sku": "BEA-NAI-NAI-005",
-      "weight": 8,
-      "dimensions": {
-        "width": 21.63,
-        "height": 16.48,
-        "depth": 29.84
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 2,
-          "comment": "Poor quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Benjamin Wilson",
-          "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Liam Smith",
-          "reviewerEmail": "liam.smith@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Very unhappy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Clara Berry",
-          "reviewerEmail": "clara.berry@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 22,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "4063010628104",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
-      "categoryId": 1
-    },
-    {
-      "id": 6,
-      "title": "Calvin Klein CK One",
-      "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
-      "price": 49.99,
-      "discountPercentage": 1.89,
-      "rating": 4.37,
-      "stock": 29,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Calvin Klein",
-      "sku": "FRA-CAL-CAL-006",
-      "weight": 7,
-      "dimensions": {
-        "width": 29.36,
-        "height": 27.76,
-        "depth": 20.72
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 2,
-          "comment": "Very disappointed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Layla Young",
-          "reviewerEmail": "layla.young@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Fast shipping!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Daniel Cook",
-          "reviewerEmail": "daniel.cook@x.dummyjson.com"
-        },
-        {
-          "rating": 3,
-          "comment": "Not as described!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Jacob Cooper",
-          "reviewerEmail": "jacob.cooper@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 9,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "2451534060749",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
-      "categoryId": 2
-    },
-    {
-      "id": 7,
-      "title": "Chanel Coco Noir Eau De",
-      "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-      "price": 129.99,
-      "discountPercentage": 16.51,
-      "rating": 4.26,
-      "stock": 58,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Chanel",
-      "sku": "FRA-CHA-CHA-007",
-      "weight": 7,
-      "dimensions": {
-        "width": 24.5,
-        "height": 25.7,
-        "depth": 25.98
-      },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Ruby Andrews",
-          "reviewerEmail": "ruby.andrews@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Awesome product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Leah Henderson",
-          "reviewerEmail": "leah.henderson@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Xavier Wright",
-          "reviewerEmail": "xavier.wright@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "4091737746820",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/2.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp",
-      "categoryId": 2
-    },
-    {
-      "id": 8,
-      "title": "Dior J'adore",
-      "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
-      "price": 89.99,
-      "discountPercentage": 14.72,
-      "rating": 3.8,
-      "stock": 98,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Dior",
-      "sku": "FRA-DIO-DIO-008",
-      "weight": 4,
-      "dimensions": {
-        "width": 27.67,
-        "height": 28.28,
-        "depth": 11.83
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Great value for money!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nicholas Bailey",
-          "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great value for money!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Penelope Harper",
-          "reviewerEmail": "penelope.harper@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Emma Miller",
-          "reviewerEmail": "emma.miller@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 10,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "1445086097250",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/2.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp",
-      "categoryId": 2
-    },
-    {
-      "id": 9,
-      "title": "Dolce Shine Eau de",
-      "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
-      "price": 69.99,
-      "discountPercentage": 0.62,
-      "rating": 3.96,
-      "stock": 4,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Dolce & Gabbana",
-      "sku": "FRA-DOL-DOL-009",
-      "weight": 6,
-      "dimensions": {
-        "width": 27.28,
-        "height": 29.88,
-        "depth": 18.3
-      },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "Low Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Would buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Mateo Bennett",
-          "reviewerEmail": "mateo.bennett@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nolan Gonzalez",
-          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Aurora Lawson",
-          "reviewerEmail": "aurora.lawson@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 2,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "3023868210708",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/2.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp",
-      "categoryId": 2
-    },
-    {
-      "id": 10,
-      "title": "Gucci Bloom Eau de",
-      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
-      "price": 79.99,
-      "discountPercentage": 14.39,
-      "rating": 2.74,
-      "stock": 91,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Gucci",
-      "sku": "FRA-GUC-GUC-010",
-      "weight": 7,
-      "dimensions": {
-        "width": 20.92,
-        "height": 21.68,
-        "depth": 11.2
-      },
-      "warrantyInformation": "6 months warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 1,
-          "comment": "Very dissatisfied!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Cameron Perez",
-          "reviewerEmail": "cameron.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Daniel Cook",
-          "reviewerEmail": "daniel.cook@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Addison Wright",
-          "reviewerEmail": "addison.wright@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 2,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "3170832177880",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/2.webp",
-        "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp",
-      "categoryId": 2
-    },
-    {
-      "id": 11,
-      "title": "Annibale Colombo Bed",
-      "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-      "price": 1899.99,
-      "discountPercentage": 8.57,
-      "rating": 4.77,
-      "stock": 88,
-      "tags": [
-        "furniture",
-        "beds"
-      ],
-      "brand": "Annibale Colombo",
-      "sku": "FUR-ANN-ANN-011",
-      "weight": 10,
-      "dimensions": {
-        "width": 28.16,
-        "height": 25.36,
-        "depth": 17.28
-      },
-      "warrantyInformation": "1 year warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 2,
-          "comment": "Would not recommend!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Christopher West",
-          "reviewerEmail": "christopher.west@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Vivian Carter",
-          "reviewerEmail": "vivian.carter@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Poor quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Mason Wright",
-          "reviewerEmail": "mason.wright@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "3610757456581",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
-        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
-        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
-      "categoryId": 3
-    },
-    {
-      "id": 12,
-      "title": "Annibale Colombo Sofa",
-      "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
-      "price": 2499.99,
-      "discountPercentage": 14.4,
-      "rating": 3.92,
-      "stock": 60,
-      "tags": [
-        "furniture",
-        "sofas"
-      ],
-      "brand": "Annibale Colombo",
-      "sku": "FUR-ANN-ANN-012",
-      "weight": 6,
-      "dimensions": {
-        "width": 12.75,
-        "height": 20.55,
-        "depth": 19.06
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Very unhappy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Christian Perez",
-          "reviewerEmail": "christian.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Fast shipping!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Lillian Bishop",
-          "reviewerEmail": "lillian.bishop@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Poor quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Lillian Simmons",
-          "reviewerEmail": "lillian.simmons@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "1777662847736",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
-        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
-        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp",
-      "categoryId": 3
-    },
-    {
-      "id": 13,
-      "title": "Bedside Table African Cherry",
-      "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
-      "price": 299.99,
-      "discountPercentage": 19.09,
-      "rating": 2.87,
-      "stock": 64,
-      "tags": [
-        "furniture",
-        "bedside tables"
-      ],
-      "brand": "Furniture Co.",
-      "sku": "FUR-FUR-BED-013",
-      "weight": 2,
-      "dimensions": {
-        "width": 13.47,
-        "height": 24.99,
-        "depth": 27.35
-      },
-      "warrantyInformation": "5 year warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Aaliyah Hanson",
-          "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Liam Smith",
-          "reviewerEmail": "liam.smith@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Avery Barnes",
-          "reviewerEmail": "avery.barnes@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 3,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "6441287925979",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
-        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
-        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp",
-      "categoryId": 3
-    },
-    {
       "id": 14,
-      "title": "Knoll Saarinen Executive Conference Chair",
+      "title": "test",
       "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
       "price": 499.99,
       "discountPercentage": 2.01,
@@ -1155,64 +359,6 @@
       "categoryId": 4
     },
     {
-      "id": 20,
-      "title": "Cooking Oil",
-      "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
-      "price": 4.99,
-      "discountPercentage": 9.33,
-      "rating": 4.8,
-      "stock": 10,
-      "tags": [
-        "cooking essentials"
-      ],
-      "sku": "GRO-BRD-COO-020",
-      "weight": 5,
-      "dimensions": {
-        "width": 19.95,
-        "height": 27.54,
-        "depth": 24.86
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships in 1-2 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Victoria McDonald",
-          "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Would not recommend!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Hazel Evans",
-          "reviewerEmail": "hazel.evans@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Would buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Zoe Bennett",
-          "reviewerEmail": "zoe.bennett@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 46,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "4874727824518",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
-      "categoryId": 4
-    },
-    {
       "id": 21,
       "title": "Cucumber",
       "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
@@ -1268,65 +414,6 @@
         "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp",
-      "categoryId": 4
-    },
-    {
-      "id": 22,
-      "title": "Dog Food",
-      "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
-      "price": 10.99,
-      "discountPercentage": 10.27,
-      "rating": 4.55,
-      "stock": 71,
-      "tags": [
-        "pet supplies",
-        "dog food"
-      ],
-      "sku": "GRO-BRD-FOO-022",
-      "weight": 10,
-      "dimensions": {
-        "width": 16.93,
-        "height": 27.15,
-        "depth": 9.29
-      },
-      "warrantyInformation": "No warranty",
-      "shippingInformation": "Ships in 1-2 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Excellent quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nicholas Edwards",
-          "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Awesome product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Zachary Lee",
-          "reviewerEmail": "zachary.lee@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nova Cooper",
-          "reviewerEmail": "nova.cooper@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 43,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "5906686116469",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp",
       "categoryId": 4
     },
     {
@@ -1447,7 +534,7 @@
     },
     {
       "id": 25,
-      "title": "Green Bell Pepper",
+      "title": "new",
       "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
       "price": 1.29,
       "discountPercentage": 0.16,
@@ -2916,65 +2003,6 @@
       "categoryId": 6
     },
     {
-      "id": 50,
-      "title": "Black Whisk",
-      "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
-      "price": 9.99,
-      "discountPercentage": 10.24,
-      "rating": 3.9,
-      "stock": 73,
-      "tags": [
-        "kitchen tools",
-        "utensils"
-      ],
-      "sku": "KIT-BRD-BLA-050",
-      "weight": 1,
-      "dimensions": {
-        "width": 13.03,
-        "height": 5.99,
-        "depth": 20.64
-      },
-      "warrantyInformation": "3 months warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Not worth the price!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Cameron Perez",
-          "reviewerEmail": "cameron.perez@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Waste of money!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Benjamin Foster",
-          "reviewerEmail": "benjamin.foster@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Paisley Bell",
-          "reviewerEmail": "paisley.bell@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 40,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "3112495795209",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/thumbnail.webp",
-      "categoryId": 6
-    },
-    {
       "id": 51,
       "title": "Boxed Blender",
       "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
@@ -3335,183 +2363,6 @@
       "categoryId": 6
     },
     {
-      "id": 57,
-      "title": "Fine Mesh Strainer",
-      "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
-      "price": 9.99,
-      "discountPercentage": 3.5,
-      "rating": 3.04,
-      "stock": 85,
-      "tags": [
-        "kitchen tools",
-        "strainers"
-      ],
-      "sku": "KIT-BRD-FIN-057",
-      "weight": 9,
-      "dimensions": {
-        "width": 18.02,
-        "height": 13.23,
-        "depth": 15.92
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Isabella Anderson",
-          "reviewerEmail": "isabella.anderson@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Aaliyah Hanson",
-          "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Would not recommend!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Layla Sullivan",
-          "reviewerEmail": "layla.sullivan@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 43,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "8181672477425",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp",
-      "categoryId": 6
-    },
-    {
-      "id": 58,
-      "title": "Fork",
-      "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
-      "price": 3.99,
-      "discountPercentage": 8.07,
-      "rating": 3.11,
-      "stock": 7,
-      "tags": [
-        "kitchen tools",
-        "utensils"
-      ],
-      "sku": "KIT-BRD-FOR-058",
-      "weight": 9,
-      "dimensions": {
-        "width": 12.3,
-        "height": 25.91,
-        "depth": 22.57
-      },
-      "warrantyInformation": "No warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Highly impressed!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Elena Baker",
-          "reviewerEmail": "elena.baker@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very satisfied!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Avery Scott",
-          "reviewerEmail": "avery.scott@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Would not buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Mateo Perez",
-          "reviewerEmail": "mateo.perez@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 36,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "2851192866410",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/thumbnail.webp",
-      "categoryId": 6
-    },
-    {
-      "id": 59,
-      "title": "Glass",
-      "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
-      "price": 4.99,
-      "discountPercentage": 7.92,
-      "rating": 4.02,
-      "stock": 46,
-      "tags": [
-        "drinkware",
-        "glasses"
-      ],
-      "sku": "KIT-BRD-GLA-059",
-      "weight": 10,
-      "dimensions": {
-        "width": 20.23,
-        "height": 24.56,
-        "depth": 26.97
-      },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Jackson Evans",
-          "reviewerEmail": "jackson.evans@x.dummyjson.com"
-        },
-        {
-          "rating": 3,
-          "comment": "Waste of money!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nicholas Bailey",
-          "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very satisfied!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nathan Reed",
-          "reviewerEmail": "nathan.reed@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 17,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "4900880403720",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/thumbnail.webp",
-      "categoryId": 6
-    },
-    {
       "id": 60,
       "title": "Grater Black",
       "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
@@ -3627,65 +2478,6 @@
         "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/thumbnail.webp",
-      "categoryId": 6
-    },
-    {
-      "id": 62,
-      "title": "Ice Cube Tray",
-      "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
-      "price": 5.99,
-      "discountPercentage": 0.63,
-      "rating": 4.71,
-      "stock": 13,
-      "tags": [
-        "kitchen tools",
-        "ice cube trays"
-      ],
-      "sku": "KIT-BRD-CUB-062",
-      "weight": 3,
-      "dimensions": {
-        "width": 26.67,
-        "height": 18.14,
-        "depth": 5.31
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Awesome product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Isaac Lawrence",
-          "reviewerEmail": "isaac.lawrence@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Would buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Leo Rivera",
-          "reviewerEmail": "leo.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Henry Turner",
-          "reviewerEmail": "henry.turner@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 16,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "9123541111825",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/thumbnail.webp",
       "categoryId": 6
     },
     {
@@ -4044,65 +2836,6 @@
         "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/1.webp"
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp",
-      "categoryId": 6
-    },
-    {
-      "id": 69,
-      "title": "Plate",
-      "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
-      "price": 3.99,
-      "discountPercentage": 7.31,
-      "rating": 3.65,
-      "stock": 66,
-      "tags": [
-        "dinnerware",
-        "plates"
-      ],
-      "sku": "KIT-BRD-PLA-069",
-      "weight": 4,
-      "dimensions": {
-        "width": 16.46,
-        "height": 5.39,
-        "depth": 13.15
-      },
-      "warrantyInformation": "1 year warranty",
-      "shippingInformation": "Ships in 1-2 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Disappointing product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Mia Miller",
-          "reviewerEmail": "mia.miller@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Henry Adams",
-          "reviewerEmail": "henry.adams@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Nora Russell",
-          "reviewerEmail": "nora.russell@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 6,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "8084753475328",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/thumbnail.webp",
       "categoryId": 6
     },
     {
@@ -5263,9 +3996,9 @@
     },
     {
       "id": 89,
-      "title": "Nike Baseball Cleats",
+      "title": "this has changed",
       "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
-      "price": 79.99,
+      "price": 60,
       "discountPercentage": 18.04,
       "rating": 3.88,
       "stock": 12,
@@ -5947,68 +4680,6 @@
       "categoryId": 11
     },
     {
-      "id": 100,
-      "title": "Apple Airpods",
-      "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
-      "price": 129.99,
-      "discountPercentage": 15.54,
-      "rating": 4.15,
-      "stock": 67,
-      "tags": [
-        "electronics",
-        "wireless earphones"
-      ],
-      "brand": "Apple",
-      "sku": "MOB-APP-APP-100",
-      "weight": 4,
-      "dimensions": {
-        "width": 25.79,
-        "height": 18.38,
-        "depth": 11.53
-      },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Would not buy again!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Christopher West",
-          "reviewerEmail": "christopher.west@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Emma Wilson",
-          "reviewerEmail": "emma.wilson@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Xavier Wright",
-          "reviewerEmail": "xavier.wright@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 4,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "1104115683955",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
-        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
-        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
-      "categoryId": 11
-    },
-    {
       "id": 101,
       "title": "Apple AirPods Max Silver",
       "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
@@ -6554,66 +5225,6 @@
         "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/2.webp"
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/thumbnail.webp",
-      "categoryId": 11
-    },
-    {
-      "id": 110,
-      "title": "Selfie Lamp with iPhone",
-      "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
-      "price": 14.99,
-      "discountPercentage": 19.4,
-      "rating": 3.55,
-      "stock": 58,
-      "tags": [
-        "electronics",
-        "selfie accessories"
-      ],
-      "brand": "GadgetMaster",
-      "sku": "MOB-GAD-SEL-110",
-      "weight": 10,
-      "dimensions": {
-        "width": 5.26,
-        "height": 13.84,
-        "depth": 22.83
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Luke Cooper",
-          "reviewerEmail": "luke.cooper@x.dummyjson.com"
-        },
-        {
-          "rating": 3,
-          "comment": "Poor quality!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Caleb Perkins",
-          "reviewerEmail": "caleb.perkins@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2025-04-30T09:41:02.053Z",
-          "reviewerName": "Benjamin Wilson",
-          "reviewerEmail": "benjamin.wilson@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 22,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.053Z",
-        "updatedAt": "2025-04-30T09:41:02.053Z",
-        "barcode": "4372781189895",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/thumbnail.webp",
       "categoryId": 11
     },
     {
@@ -7172,68 +5783,6 @@
         "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/3.webp"
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/thumbnail.webp",
-      "categoryId": 13
-    },
-    {
-      "id": 120,
-      "title": "Vaseline Men Body and Face Lotion",
-      "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
-      "price": 9.99,
-      "discountPercentage": 13.39,
-      "rating": 3.16,
-      "stock": 95,
-      "tags": [
-        "personal care",
-        "body lotion"
-      ],
-      "brand": "Vaseline",
-      "sku": "SKI-VAS-VAS-120",
-      "weight": 4,
-      "dimensions": {
-        "width": 21.83,
-        "height": 17.38,
-        "depth": 24.76
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2025-04-30T09:41:02.054Z",
-          "reviewerName": "Aria Ferguson",
-          "reviewerEmail": "aria.ferguson@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2025-04-30T09:41:02.054Z",
-          "reviewerName": "Nova Cooper",
-          "reviewerEmail": "nova.cooper@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great product!",
-          "date": "2025-04-30T09:41:02.054Z",
-          "reviewerName": "Madison Collins",
-          "reviewerEmail": "madison.collins@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 9,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.054Z",
-        "updatedAt": "2025-04-30T09:41:02.054Z",
-        "barcode": "8483207319090",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/1.webp",
-        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/2.webp",
-        "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/3.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/thumbnail.webp",
       "categoryId": 13
     },
     {
@@ -8230,69 +6779,10 @@
       "categoryId": 14
     },
     {
-      "id": 137,
-      "title": "American Football",
-      "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
-      "price": 19.99,
-      "discountPercentage": 4.93,
-      "rating": 4.91,
-      "stock": 53,
-      "tags": [
-        "sports equipment",
-        "american football"
-      ],
-      "sku": "SPO-BRD-AME-137",
-      "weight": 2,
-      "dimensions": {
-        "width": 6.88,
-        "height": 5.82,
-        "depth": 21.96
-      },
-      "warrantyInformation": "6 months warranty",
-      "shippingInformation": "Ships in 1 month",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Awesome product!",
-          "date": "2025-04-30T09:41:02.054Z",
-          "reviewerName": "Scarlett Bowman",
-          "reviewerEmail": "scarlett.bowman@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Would buy again!",
-          "date": "2025-04-30T09:41:02.054Z",
-          "reviewerName": "Tristan Scott",
-          "reviewerEmail": "tristan.scott@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very pleased!",
-          "date": "2025-04-30T09:41:02.054Z",
-          "reviewerName": "Eleanor Tyler",
-          "reviewerEmail": "eleanor.tyler@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2025-04-30T09:41:02.054Z",
-        "updatedAt": "2025-04-30T09:41:02.054Z",
-        "barcode": "0984311727547",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/thumbnail.webp",
-      "categoryId": 15
-    },
-    {
       "id": 138,
-      "title": "Baseball Ball",
+      "title": "Baseball Ball updated",
       "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
-      "price": 8.99,
+      "price": 69,
       "discountPercentage": 1.71,
       "rating": 2.57,
       "stock": 100,
@@ -11803,6 +10293,118 @@
       ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
       "categoryId": 24
+    },
+    {
+      "title": "dick",
+      "price": 69,
+      "description": "some desc",
+      "thumbnail": "https//google.com",
+      "categoryId": 1,
+      "brand": "fuckoff",
+      "meta": {
+        "createdAt": "2026-02-22T14:42:33.946Z",
+        "updatedAt": "2026-02-22T14:42:33.946Z"
+      },
+      "id": 195,
+      "sku": "BEA-FUC-DIC-195"
+    },
+    {
+      "title": "hehe",
+      "price": 692,
+      "description": "some desc...",
+      "thumbnail": "https//google.com/hehe",
+      "categoryId": 2,
+      "brand": "hehe",
+      "meta": {
+        "createdAt": "2026-02-22T14:44:52.488Z",
+        "updatedAt": "2026-02-22T14:44:52.488Z"
+      },
+      "id": 196,
+      "sku": "FRA-HEH-HEH-196"
+    },
+    {
+      "title": "hehe2",
+      "price": 29382938928,
+      "description": "some desc...",
+      "thumbnail": "https//google.com/hehe",
+      "categoryId": 2,
+      "brand": "hehe",
+      "meta": {
+        "createdAt": "2026-02-22T18:20:52.472Z",
+        "updatedAt": "2026-02-22T18:20:52.472Z"
+      },
+      "id": 197,
+      "sku": "FRA-HEH-HEH-197"
+    },
+    {
+      "title": "hehe2",
+      "price": 29382938928,
+      "description": "some desc...",
+      "thumbnail": "https//google.com/hehe",
+      "categoryId": 2,
+      "brand": "hehe",
+      "meta": {
+        "createdAt": "2026-02-22T18:21:21.222Z",
+        "updatedAt": "2026-02-22T18:21:21.222Z"
+      },
+      "id": 198,
+      "sku": "FRA-HEH-HEH-198"
+    },
+    {
+      "title": "yes",
+      "price": 200,
+      "description": "this is a product",
+      "thumbnail": "https://google.com",
+      "categoryId": 1,
+      "brand": "Nintendo",
+      "meta": {
+        "createdAt": "2026-02-22T18:55:27.547Z",
+        "updatedAt": "2026-02-22T18:55:27.547Z"
+      },
+      "id": 199,
+      "sku": "BEA-NIN-YES-199"
+    },
+    {
+      "title": "yes",
+      "price": 200,
+      "description": "this is a product",
+      "thumbnail": "https://google.com",
+      "categoryId": 1,
+      "brand": "Nintendo",
+      "meta": {
+        "createdAt": "2026-02-22T18:56:03.070Z",
+        "updatedAt": "2026-02-22T18:56:03.070Z"
+      },
+      "id": 200,
+      "sku": "BEA-NIN-YES-200"
+    },
+    {
+      "title": "new thing",
+      "price": 69,
+      "description": "this is a new thign",
+      "thumbnail": "https://google.com",
+      "categoryId": 1,
+      "brand": "something",
+      "meta": {
+        "createdAt": "2026-02-23T12:22:54.720Z",
+        "updatedAt": "2026-02-23T12:22:54.720Z"
+      },
+      "id": 201,
+      "sku": "BEA-SOM-NEW-201"
+    },
+    {
+      "title": "new thing",
+      "price": 69,
+      "description": "this is a new thign",
+      "thumbnail": "https://google.com",
+      "categoryId": 1,
+      "brand": "something",
+      "meta": {
+        "createdAt": "2026-02-23T12:22:57.509Z",
+        "updatedAt": "2026-02-23T12:22:57.509Z"
+      },
+      "id": 202,
+      "sku": "BEA-SOM-NEW-202"
     }
   ],
   "categories": [

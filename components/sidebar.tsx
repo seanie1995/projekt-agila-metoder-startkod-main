@@ -1,3 +1,5 @@
+// `´nb@NB${}[]\|| `${}`
+
 import React from "react";
 import { inter } from "next/font/google";
 import { Package2 } from "lucide-react";
@@ -94,3 +96,11 @@ const sidebar = () => {
 };
 
 export default sidebar;
+
+// # merge dev onto your own feature
+// git switch dev
+// git pull
+// git switch feature/<your-feature>
+// git merge dev
+
+// `´nb@NB${}[]\|| `${}`

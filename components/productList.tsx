@@ -1,5 +1,6 @@
 import React from "react";
 import { Trash2, SquarePen } from "lucide-react";
+import { getProducts } from "@/services/product";
 
 const products: {
   name: string;
@@ -51,7 +52,25 @@ const products: {
   },
 ];
 
-const ProductList = () => {
+const ProductList = async ({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) => {
+  const {
+    limit = 6,
+    page = "1",
+    sort = "id",
+    order = "asc",
+  } = await searchParams;
+
+  const res = getProducts(
+    Number(limit),
+    Number(page),
+    sort.toString(),
+    order.toString(),
+  );
+
   return (
     <>
       <table className="w-full rounded-2xl  border-neutral-400 border">

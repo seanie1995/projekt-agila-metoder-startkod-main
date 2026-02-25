@@ -27,7 +27,7 @@ export default async function Home(params: PageProps<"/">) {
 
         <main className="p-8">
           <h1>Products</h1>
-          <ProductList />
+          <ProductList searchParams={params.searchParams} />
           <div>
             {products.map((product) => (
               <h2 key={product.id}>

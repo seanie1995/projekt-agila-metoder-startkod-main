@@ -25,6 +25,21 @@ export const getProducts = async (
   return data;
 };
 
+export const getCategories = async () => {
+  const data = await fetch(`http://localhost:4000/categories`).then((res) =>
+    res.json(),
+  );
+
+  return data;
+}
+
+export const getProductByID = async (id: number) => {
+  const data = await fetch(`${API_URL}/products/${id}`).then((res) =>
+    res.json(),
+  );
+  return data;
+}
+
 // required keys:
 // title, price, description, thumbnail, categoryId, brand
 export const createProduct = async (product: Product) => {

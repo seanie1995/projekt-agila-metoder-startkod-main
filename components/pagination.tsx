@@ -17,8 +17,6 @@ const Pagination = ({ totalPages }: { totalPages: number }) => {
     return `${pathName}?${params.toString()}`;
   };
 
-  const pageSelect: number[] = [currentPage - 1, currentPage, currentPage + 1];
-
   return (
     <div className="flex gap-4 p-4 justify-between">
       <span>
@@ -26,26 +24,31 @@ const Pagination = ({ totalPages }: { totalPages: number }) => {
       </span>
       <div className="flex gap-4">
         <Link
+          href={CreatePageUrl(1)}
+          className={`border border-neutral-400 rounded-lg px-2 hover:bg-purple-700 transition-all ${currentPage === 1 ? 'pointer-events-none text-gray-400 cursor-not-allowed' : ''}`}
+        >
+          First
+        </Link>
+        <Link
           href={CreatePageUrl(currentPage - 1)}
           className={`border border-neutral-400 rounded-lg px-2 hover:bg-purple-700 transition-all ${currentPage === 1 ? 'pointer-events-none text-gray-400 cursor-not-allowed' : ''}`}
         >
           Previous
         </Link>
-        {pageSelect.map((i) => (
-          <Link
-            key={i}
-            href={CreatePageUrl(i)}
-            className={`border border-neutral-400 hover px-2 rounded-lg ${i === currentPage ? 'pointer-events-none bg-purple-400' : ''}`}
-          >
-            {i}
-          </Link>
-        ))}
+
         <Link
           href={CreatePageUrl(currentPage + 1)}
           className={`border border-neutral-400 rounded-lg px-2 hover:bg-purple-700 transition-all ${currentPage === totalPages ? 'pointer-events-none text-gray-400 cursor-not-allowed' : ''}`}
         >
           {' '}
           Next
+        </Link>
+        <Link
+          href={CreatePageUrl(totalPages)}
+          className={`border border-neutral-400 rounded-lg px-2 hover:bg-purple-700 transition-all ${currentPage === totalPages ? 'pointer-events-none text-gray-400 cursor-not-allowed' : ''}`}
+        >
+          {' '}
+          Last
         </Link>
       </div>
     </div>

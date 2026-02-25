@@ -1,56 +1,8 @@
 import React from "react";
 import { Trash2, SquarePen } from "lucide-react";
 import { getProducts } from "@/services/product";
-
-const products: {
-  name: string;
-  serialNumber: string;
-  category: string;
-  price: number;
-  availabilityStatus: number;
-  status: "In Stock" | "Low Stock" | "Out of Stock";
-}[] = [
-  {
-    name: "Wireless Headphones",
-    serialNumber: "WH-2023-001",
-    category: "Electronics",
-    price: 99.99,
-    availabilityStatus: 50,
-    status: "In Stock",
-  },
-  {
-    name: "Smart Watch",
-    serialNumber: "SW-2023-002",
-    category: "Electronics",
-    price: 199.99,
-    availabilityStatus: 15,
-    status: "Low Stock",
-  },
-  {
-    name: "Coffee Maker",
-    serialNumber: "CM-2023-003",
-    category: "Home Appliances",
-    price: 49.99,
-    availabilityStatus: 0,
-    status: "Out of Stock",
-  },
-  {
-    name: "Running Shoes",
-    serialNumber: "RS-2023-004",
-    category: "Footwear",
-    price: 79.99,
-    availabilityStatus: 30,
-    status: "In Stock",
-  },
-  {
-    name: "Backpack",
-    serialNumber: "BP-2023-005",
-    category: "Accessories",
-    price: 39.99,
-    availabilityStatus: 5,
-    status: "Low Stock",
-  },
-];
+import { Product } from "@/app/types";
+import Pagination from "./pagination";
 
 const ProductList = async ({
   searchParams,
@@ -72,11 +24,12 @@ const ProductList = async ({
   );
 
   const productList = res.products;
+  const totalPages = res.pages;
 
   return (
-    <>
-      <table className="w-full rounded-2xl  border-neutral-400 border">
-        <thead className="bg-neutral-100">
+    <div className="rounded-lg overflow-hidden border border-neutral-400">
+      <table className="w-full ">
+        <thead className="bg-neutral-100 border-b border-neutral-400">
           <tr className=" text-sm text-neutral-600">
             <th className="py-4 ">Product</th>
             <th>Category</th>
@@ -87,8 +40,11 @@ const ProductList = async ({
           </tr>
         </thead>
         <tbody>
-          {productList.map((product) => (
-            <tr key={product.id} className="border border-neutral-400  text-sm">
+          {productList.map((product: Product) => (
+            <tr
+              key={product.id}
+              className="border-b border-neutral-400  text-sm"
+            >
               <td className="text-left py-4 px-4">
                 <div>
                   <div className="font-bold">{product.title}</div>
@@ -113,7 +69,8 @@ const ProductList = async ({
           ))}
         </tbody>
       </table>
-    </>
+      <Pagination totalPages={totalPages} />
+    </div>
   );
 };
 

@@ -28,14 +28,15 @@ export default async function Home(params: PageProps<"/">) {
         <AddProduct />
 
         <main className="p-8">
-          <h1>Products</h1>
+          {/* <h1>Products</h1> */}
           <ProductList searchParams={params.searchParams} />
+
           <div>
-            {products.map((product) => (
+            {/*  {products.map((product) => (
               <h2 key={product.id}>
                 {product.title} - {product.category?.name}
               </h2>
-            ))}
+            ))} */}
           </div>
         </main>
       </div>

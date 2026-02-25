@@ -13,6 +13,9 @@ export default async function Home(params: PageProps<"/">) {
   // we can use the other destructed variables like page, total and so on to create pagination or show info
   const { products, total, page, pages, limit }: ProductsResponse = await fetch(
     `${API_URL}/products/?_limit=${defaultLimit}&_sort=id&_order=desc&_expand=category`,
+    {
+    cache: "no-store",
+  }
   ).then((res) => res.json());
 
   // console.log(products);

@@ -6,7 +6,7 @@ import ProductList from "@/components/productList";
 const API_URL = "http://localhost:4000";
 const defaultLimit = "6";
 
-export default async function Home() {
+export default async function Home(params: PageProps<"/">) {
   // we use the fetch() method to get the products from the API
   // in this fetch we sort using _sort and _order and we limit the number of products using _limit
   // we also use _expand to get the relational category data
@@ -29,7 +29,7 @@ export default async function Home() {
 
         <main className="p-8">
           <h1>Products</h1>
-          <ProductList />
+          <ProductList searchParams={params.searchParams} />
           <div>
             {products.map((product) => (
               <h2 key={product.id}>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Trash2, SquarePen } from "lucide-react";
+import { getProducts } from "@/services/product";
 
 const products: {
   name: string;
@@ -51,7 +52,27 @@ const products: {
   },
 ];
 
-const ProductList = () => {
+const ProductList = async ({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) => {
+  const {
+    limit = 6,
+    page = "1",
+    sort = "id",
+    order = "asc",
+  } = await searchParams;
+
+  const res = await getProducts(
+    Number(limit),
+    Number(page),
+    sort.toString(),
+    order.toString(),
+  );
+
+  const productList = res.products;
+
   return (
     <>
       <table className="w-full rounded-2xl  border-neutral-400 border">
@@ -66,24 +87,21 @@ const ProductList = () => {
           </tr>
         </thead>
         <tbody>
-          {products.map((product) => (
-            <tr
-              key={product.serialNumber}
-              className="border border-neutral-400  text-sm"
-            >
+          {productList.map((product) => (
+            <tr key={product.id} className="border border-neutral-400  text-sm">
               <td className="text-left py-4 px-4">
                 <div>
-                  <div className="font-bold">{product.name}</div>
-                  <div className=" text-gray-500">{product.serialNumber}</div>
+                  <div className="font-bold">{product.title}</div>
+                  <div className=" text-gray-500">{product.id}</div>
                 </div>
               </td>
-              <td className="text-center ">{product.category}</td>
+              <td className="text-center ">{product.category?.name}</td>
               <td className="text-center">{product.price}</td>
               <td className="text-center">{product.availabilityStatus}</td>
               <td
-                className={`text-center ${product.status === `In Stock` ? "text-green-600" : product.status === `Low Stock` ? `text-orange-600` : `text-red-700`}`}
+                className={`text-center ${product.availabilityStatus === `In Stock` ? "text-green-600" : product.availabilityStatus === `Low Stock` ? `text-orange-600` : `text-red-700`}`}
               >
-                {product.status}
+                {product.availabilityStatus}
               </td>
               <td className="px-4">
                 <div className="flex flex-row justify-end gap-4">

@@ -5,6 +5,7 @@ import { Product } from "@/app/types";
 import Pagination from "./pagination";
 import SearchBar from "./search-bar";
 import CategorySelect from "./category-select";
+import Statistics from "./statistics";
 
 const ProductList = async ({
   searchParams,
@@ -31,11 +32,13 @@ const ProductList = async ({
 
   const categoryList = await getCategories();
 
-  const productList = res.products;
+  const productList: Product[] = res.products;
   const totalPages = res.pages;
 
   return (
     <>
+      <Statistics />
+
       <section className="p-4 border border-neutral-400 rounded-lg mb-2 flex  flex-row gap-4">
         <SearchBar />
         <CategorySelect categories={categoryList} />

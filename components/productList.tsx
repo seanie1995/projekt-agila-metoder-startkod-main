@@ -1,9 +1,10 @@
 import React from "react";
 import { Trash2, SquarePen } from "lucide-react";
-import { getProducts } from "@/services/product";
+import { getCategories, getProducts } from "@/services/product";
 import { Product } from "@/app/types";
 import Pagination from "./pagination";
 import SearchBar from "./search-bar";
+import CategorySelect from "./category-select";
 
 const ProductList = async ({
   searchParams,
@@ -16,6 +17,7 @@ const ProductList = async ({
     sort = "id",
     order = "asc",
     title = "",
+    categoryId,
   } = await searchParams;
 
   const res = await getProducts(
@@ -24,15 +26,19 @@ const ProductList = async ({
     sort.toString(),
     order.toString(),
     title.toString(),
+    categoryId?.toString(),
   );
+
+  const categoryList = await getCategories();
 
   const productList = res.products;
   const totalPages = res.pages;
 
   return (
     <>
-      <section className="p-4 border border-neutral-400 rounded-lg mb-2">
+      <section className="p-4 border border-neutral-400 rounded-lg mb-2 flex justify-end flex-row gap-4">
         <SearchBar />
+        <CategorySelect categories={categoryList} />
       </section>
 
       <div className="rounded-lg overflow-hidden border border-neutral-400">
@@ -66,7 +72,7 @@ const ProductList = async ({
                 </td>
                 <td className="text-center ">{product.category?.name}</td>
                 <td className="text-center">{product.price}</td>
-                <td className="text-center">{product.availabilityStatus}</td>
+                <td className="text-center">{product.stock}</td>
                 <td
                   className={`text-center ${product.availabilityStatus === `In Stock` ? "text-green-600" : product.availabilityStatus === `Low Stock` ? `text-orange-600` : `text-red-700`}`}
                 >

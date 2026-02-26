@@ -6,6 +6,7 @@ import Pagination from "./pagination";
 import SearchBar from "./search-bar";
 import CategorySelect from "./category-select";
 import Statistics from "./statistics";
+import Link from "next/link";
 
 const ProductList = async ({
   searchParams,
@@ -83,7 +84,11 @@ const ProductList = async ({
                 </td>
                 <td className="px-4">
                   <div className="flex flex-row justify-end gap-4">
-                    <SquarePen className="text-purple-700" />
+                    <Link href={`/products/edit/${product.id}`}>
+                      {" "}
+                      <SquarePen className="text-purple-700" />
+                    </Link>
+
                     <Trash2 className="text-red-600" />
                   </div>
                 </td>

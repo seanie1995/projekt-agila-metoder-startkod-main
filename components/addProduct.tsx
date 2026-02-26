@@ -15,7 +15,11 @@ export default function AddProduct() {
 
       <Link 
         className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#7c54a1] hover:bg-[#6a478a] text-white rounded-lg transition-colors font-medium text-sm shadow-sm whitespace-nowrap"
+<<<<<<< HEAD
         href="/">
+=======
+        href="/create">
+>>>>>>> dev
         <Plus size={18} />
         Add product
       </Link>

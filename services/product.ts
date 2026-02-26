@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import { Category } from "@/app/types";
+>>>>>>> dev
 import type { ProductsResponse, Product } from "./types";
 
 const API_URL = "http://localhost:4000";
@@ -8,6 +12,10 @@ export const getProducts = async (
   sort = "id",
   order = "asc",
   query = "",
+<<<<<<< HEAD
+=======
+  categoryId = "",
+>>>>>>> dev
 ): Promise<ProductsResponse> => {
   const params = new URLSearchParams({
     _limit: limit.toString(),
@@ -18,10 +26,29 @@ export const getProducts = async (
     title_like: query, // can only search for titles for now
   });
 
+<<<<<<< HEAD
+=======
+  if (categoryId) {
+    params.set("categoryId", categoryId);
+  }
+
+>>>>>>> dev
   const data = await fetch(`${API_URL}/products/?${params}`).then((res) =>
     res.json(),
   );
 
+<<<<<<< HEAD
+=======
+  console.log(`${API_URL}/products/?${params}`);
+
+  return data;
+};
+
+export const getProductByID = async (id: number) => {
+  const data = await fetch(`${API_URL}/products/${id}`).then((res) =>
+    res.json(),
+  );
+>>>>>>> dev
   return data;
 };
 
@@ -50,3 +77,14 @@ export const updateProductByID = async (id: number, updates: Product) => {
 export const deleteProductByID = async (id: number) => {
   await fetch(`${API_URL}/products/${id}`, { method: "DELETE" });
 };
+<<<<<<< HEAD
+=======
+
+export const getCategories = async (): Promise<Category[]> => {
+  const data = await fetch("http://localhost:4000/categories").then((res) =>
+    res.json(),
+  );
+
+  return data;
+};
+>>>>>>> dev

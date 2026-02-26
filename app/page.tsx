@@ -2,6 +2,7 @@ import Sidebar from "@/components/sidebar";
 import type { ProductsResponse } from "./types";
 import AddProduct from "@/components/addProduct";
 
+<<<<<<< HEAD
 const API_URL = "http://localhost:4000";
 const defaultLimit = "6";
 
@@ -15,7 +16,11 @@ export default async function Home(params: PageProps<"/">) {
   ).then((res) => res.json());
 
   console.log(products);
+=======
+import ProductList from "@/components/productList";
+>>>>>>> dev
 
+export default async function Home(params: PageProps<"/">) {
   return (
     <div className="grid min-h-screen grid-cols-[256px_1fr] bg-gray-50">
       <aside className="border-r border-gray-200 bg-white hidden md:block">
@@ -26,6 +31,7 @@ export default async function Home(params: PageProps<"/">) {
         <AddProduct />
 
         <main className="p-8">
+<<<<<<< HEAD
           <h1>Products</h1>
           <ProductList searchParams={params.searchParams} />
           <div>
@@ -35,6 +41,9 @@ export default async function Home(params: PageProps<"/">) {
               </h2>
             ))}
           </div>
+=======
+          <ProductList searchParams={params.searchParams} />
+>>>>>>> dev
         </main>
       </div>
     </div>

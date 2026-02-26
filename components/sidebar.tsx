@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const sidebar = () => {
   return (
-    <div className="h-200 w-50 border-2 border-solid border-neutral-100">
+    <div className="h-200 max-w-70 border-2 border-solid border-neutral-100">
       {/* <h1 className="text-4xl font-bold">sidebar</h1> */}
       <section className="mt-5 h-20">
         <h1 className="tracking-tighter ml-6 font-inter text-xl font-bold mb-1">

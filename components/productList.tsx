@@ -1,56 +1,57 @@
 import React from "react";
 import { Trash2, SquarePen } from "lucide-react";
 import { getProducts } from "@/services/product";
+import Link from "next/link";
 
-const products: {
-  name: string;
-  serialNumber: string;
-  category: string;
-  price: number;
-  availabilityStatus: number;
-  status: "In Stock" | "Low Stock" | "Out of Stock";
-}[] = [
-  {
-    name: "Wireless Headphones",
-    serialNumber: "WH-2023-001",
-    category: "Electronics",
-    price: 99.99,
-    availabilityStatus: 50,
-    status: "In Stock",
-  },
-  {
-    name: "Smart Watch",
-    serialNumber: "SW-2023-002",
-    category: "Electronics",
-    price: 199.99,
-    availabilityStatus: 15,
-    status: "Low Stock",
-  },
-  {
-    name: "Coffee Maker",
-    serialNumber: "CM-2023-003",
-    category: "Home Appliances",
-    price: 49.99,
-    availabilityStatus: 0,
-    status: "Out of Stock",
-  },
-  {
-    name: "Running Shoes",
-    serialNumber: "RS-2023-004",
-    category: "Footwear",
-    price: 79.99,
-    availabilityStatus: 30,
-    status: "In Stock",
-  },
-  {
-    name: "Backpack",
-    serialNumber: "BP-2023-005",
-    category: "Accessories",
-    price: 39.99,
-    availabilityStatus: 5,
-    status: "Low Stock",
-  },
-];
+// const products: {
+//   name: string;
+//   serialNumber: string;
+//   category: string;
+//   price: number;
+//   availabilityStatus: number;
+//   status: "In Stock" | "Low Stock" | "Out of Stock";
+// }[] = [
+//   {
+//     name: "Wireless Headphones",
+//     serialNumber: "WH-2023-001",
+//     category: "Electronics",
+//     price: 99.99,
+//     availabilityStatus: 50,
+//     status: "In Stock",
+//   },
+//   {
+//     name: "Smart Watch",
+//     serialNumber: "SW-2023-002",
+//     category: "Electronics",
+//     price: 199.99,
+//     availabilityStatus: 15,
+//     status: "Low Stock",
+//   },
+//   {
+//     name: "Coffee Maker",
+//     serialNumber: "CM-2023-003",
+//     category: "Home Appliances",
+//     price: 49.99,
+//     availabilityStatus: 0,
+//     status: "Out of Stock",
+//   },
+//   {
+//     name: "Running Shoes",
+//     serialNumber: "RS-2023-004",
+//     category: "Footwear",
+//     price: 79.99,
+//     availabilityStatus: 30,
+//     status: "In Stock",
+//   },
+//   {
+//     name: "Backpack",
+//     serialNumber: "BP-2023-005",
+//     category: "Accessories",
+//     price: 39.99,
+//     availabilityStatus: 5,
+//     status: "Low Stock",
+//   },
+// ];
 
 const ProductList = async ({
   searchParams,
@@ -74,7 +75,7 @@ const ProductList = async ({
   const productList = res.products;
 
   return (
-    <>
+    <div>
       <table className="w-full rounded-2xl  border-neutral-400 border">
         <thead className="bg-neutral-100">
           <tr className=" text-sm text-neutral-600">
@@ -105,7 +106,9 @@ const ProductList = async ({
               </td>
               <td className="px-4">
                 <div className="flex flex-row justify-end gap-4">
-                  <SquarePen className="text-purple-700" />
+                  <Link href={`/products/edit/${product.id}`}>
+                    <SquarePen className="text-purple-700" />
+                  </Link>
                   <Trash2 className="text-red-600" />
                 </div>
               </td>
@@ -113,7 +116,7 @@ const ProductList = async ({
           ))}
         </tbody>
       </table>
-    </>
+    </div>
   );
 };
 

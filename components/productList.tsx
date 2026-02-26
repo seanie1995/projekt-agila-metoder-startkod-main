@@ -1,6 +1,5 @@
 import React from "react";
 import { Trash2, SquarePen } from "lucide-react";
-import Link from "next/link";
 import { getCategories, getProducts } from "@/services/product";
 import { Product } from "@/app/types";
 import Pagination from "./pagination";
@@ -27,6 +26,8 @@ const ProductList = async ({
     Number(page),
     sort.toString(),
     order.toString(),
+    title.toString(),
+    categoryId?.toString(),
   );
 
   const categoryList = await getCategories();

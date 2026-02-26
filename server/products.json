@@ -10405,6 +10405,21 @@
       },
       "id": 202,
       "sku": "BEA-SOM-NEW-202"
+    },
+    {
+      "title": "Nintendo",
+      "brand": "Playstation",
+      "description": "Hail Super Mario",
+      "thumbnail": "https://www.google.com",
+      "price": 666,
+      "categoryId": 5,
+      "stock": 666,
+      "meta": {
+        "createdAt": "2026-02-26T12:58:25.271Z",
+        "updatedAt": "2026-02-26T12:58:25.271Z"
+      },
+      "id": 203,
+      "sku": "HOM-PLA-NIN-203"
     }
   ],
   "categories": [

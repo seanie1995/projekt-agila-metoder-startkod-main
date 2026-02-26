@@ -16,13 +16,6 @@ export default async function EditProduct({
     <main>
       <h1>Edit product</h1>
       <EditForm product={product} />
-      {/* <button className="hover:cursor-pointer" type="submit">
-        Edit
-      </button> */}
     </main>
   );
 }
-
-// title, price, description, thumbnail, categoryId, brand
-
-// `´nb@NB${}[]\|| `${}`

@@ -2,7 +2,11 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { createProduct, updateProductByID, deleteProductByID } from "@/services/product";
+import {
+  createProduct,
+  updateProductByID,
+  deleteProductByID,
+} from "@/services/product";
 
 import type { ProductFormData } from "./types";
 

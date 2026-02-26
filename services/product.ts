@@ -1,3 +1,4 @@
+import { Category } from "@/app/types";
 import type { ProductsResponse, Product } from "./types";
 
 const API_URL = "http://localhost:4000";
@@ -8,6 +9,7 @@ export const getProducts = async (
   sort = "id",
   order = "asc",
   query = "",
+  categoryId = "",
 ): Promise<ProductsResponse> => {
   const params = new URLSearchParams({
     _limit: limit.toString(),
@@ -18,9 +20,15 @@ export const getProducts = async (
     title_like: query, // can only search for titles for now
   });
 
+  if (categoryId) {
+    params.set("categoryId", categoryId);
+  }
+
   const data = await fetch(`${API_URL}/products/?${params}`).then((res) =>
     res.json(),
   );
+
+  console.log(`${API_URL}/products/?${params}`);
 
   return data;
 };
@@ -49,4 +57,12 @@ export const updateProductByID = async (id: number, updates: Product) => {
 
 export const deleteProductByID = async (id: number) => {
   await fetch(`${API_URL}/products/${id}`, { method: "DELETE" });
+};
+
+export const getCategories = async (): Promise<Category[]> => {
+  const data = await fetch("http://localhost:4000/categories").then((res) =>
+    res.json(),
+  );
+
+  return data;
 };

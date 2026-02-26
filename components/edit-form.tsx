@@ -13,7 +13,7 @@ export default async function EditForm({ product }: { product: Product }) {
   // title, price, description, thumbnail, categoryId, brand
   return (
     <Form action={updateProductAction}>
-      <input readOnly name="id" />
+      <input readOnly name="id" value={product.id} />
       <div className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 items-center">
         <label className="font-semibold" htmlFor="title">
           Title

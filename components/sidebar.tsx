@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const sidebar = () => {
   return (
-    <div className="h-200 max-w-70 border-2 border-solid border-neutral-100">
+    <div className="flex-col h-200 max-w-70 border-2 border-solid border-neutral-100">
       {/* <h1 className="text-4xl font-bold">sidebar</h1> */}
       <section className="mt-5 h-20">
         <h1 className="tracking-tighter ml-6 font-inter text-xl font-bold mb-1">
@@ -22,7 +22,7 @@ const sidebar = () => {
         </h4>
         <hr className="border-b-2 border-solid border-neutral-100" />
       </section>
-      <section className="h-155">
+      <section className="max-h-155 h-145">
         <nav>
           <ul className="m-4">
             <li className="transition-colors transition-duration-500 text-purple-600 pl-3 pt-0.5 flex-auto justify-center text-justify justify-items-center h-8 mb-1 mt-0 hover:bg-purple-600 hover:text-white focus:bg-purple-600 focus:text-white active:bg-purple-600 active:text-white rounded-md">
@@ -59,7 +59,7 @@ const sidebar = () => {
         </nav>
       </section>
       <hr className=" border-b-2 border-solid border-neutral-100" />
-      <section className="m-0 p-0">
+      <section className="flex-row justify-center mb-0 pb-0">
         {/* <Image
           src="../public/assets/user-avatar-placeholder.png"
           alt="user avatar"
@@ -69,7 +69,7 @@ const sidebar = () => {
           preload={true}
           sizes="(max-width: 50px) 100vw, (max-width: 70px) 50vw, 33vw"
         /> */}
-        <div className="flex justify-items-center text-start items-center ml-2 mt-2 mr-0 mb-0 p-0">
+        <div className="flex justify-items-end text-start items-center ml-2 mt-2 mr-0 mb-0 p-0">
           <Image
             src="/user-avatar-placeholder.png"
             width={40}

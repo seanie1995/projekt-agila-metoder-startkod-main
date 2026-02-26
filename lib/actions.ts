@@ -8,7 +8,7 @@ import {
   deleteProductByID,
 } from "@/services/product";
 
-import type { ProductFormData } from "./types";
+import type { ProductFormData } from "@/app/types";
 
 export async function createProductAction(formData: FormData) {
   const title = formData.get("title") as string;

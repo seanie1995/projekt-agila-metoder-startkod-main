@@ -1,11 +1,14 @@
 import React from "react";
-import { Trash2, SquarePen, Link } from "lucide-react";
+import { Trash2, SquarePen } from "lucide-react";
+
 import { getCategories, getProducts } from "@/services/product";
 import { Product } from "@/app/types";
 import Pagination from "./pagination";
 import SearchBar from "./search-bar";
 import CategorySelect from "./category-select";
 import Statistics from "./statistics";
+import Link from "next/link";
+import { DeleteForm } from "./delete-form";
 
 const ProductList = async ({
   searchParams,
@@ -84,10 +87,12 @@ const ProductList = async ({
                 <td className="px-4">
                   <div className="flex flex-row justify-end gap-4">
                     <Link href={`/edit/${product.id}`}>
+                      {" "}
                       <SquarePen className="text-purple-700" />
                     </Link>
-                    <SquarePen className="text-purple-700" />
-                    <Trash2 className="text-red-600" />
+                    <DeleteForm id={product.id.toString()}>
+                      {/* <Trash2 className="text-red-600" /> */}
+                    </DeleteForm>
                   </div>
                 </td>
               </tr>

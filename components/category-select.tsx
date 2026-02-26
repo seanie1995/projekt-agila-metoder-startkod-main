@@ -22,6 +22,7 @@ const CategorySelect = ({ categories }: CategrySelectProps) => {
 
     if (categoryId) {
       params.set("categoryId", categoryId);
+      params.set("page", "1");
     } else {
       params.delete("categoryId");
     }

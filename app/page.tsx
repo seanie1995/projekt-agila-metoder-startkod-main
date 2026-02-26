@@ -3,8 +3,6 @@ import type { ProductsResponse } from "./types";
 import AddProduct from "@/components/addProduct";
 
 import ProductList from "@/components/productList";
-const API_URL = "http://localhost:4000";
-const defaultLimit = "6";
 
 export default async function Home(params: PageProps<"/">) {
   return (

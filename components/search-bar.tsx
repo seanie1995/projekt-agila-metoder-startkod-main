@@ -28,7 +28,7 @@ const FiltersBar = () => {
   };
 
   return (
-    <form onSubmit={CreateSearchURL} className="w-1/2">
+    <form onSubmit={CreateSearchURL}>
       <input
         type="text"
         name="title"

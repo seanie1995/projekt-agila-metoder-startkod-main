@@ -84,7 +84,7 @@ const ProductList = async ({
                 </td>
                 <td className="px-4">
                   <div className="flex flex-row justify-end gap-4">
-                    <Link href={`/products/edit/${product.id}`}>
+                    <Link href={`/edit/${product.id}`}>
                       {" "}
                       <SquarePen className="text-purple-700" />
                     </Link>

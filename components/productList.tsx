@@ -36,7 +36,7 @@ const ProductList = async ({
 
   return (
     <>
-      <section className="p-4 border border-neutral-400 rounded-lg mb-2 flex flex-row gap-4">
+      <section className="p-4 border border-neutral-400 rounded-lg mb-2 flex justify-end flex-row gap-4">
         <SearchBar />
         <CategorySelect categories={categoryList} />
       </section>
@@ -72,7 +72,7 @@ const ProductList = async ({
                 </td>
                 <td className="text-center ">{product.category?.name}</td>
                 <td className="text-center">{product.price}</td>
-                <td className="text-center">{product.availabilityStatus}</td>
+                <td className="text-center">{product.stock}</td>
                 <td
                   className={`text-center ${product.availabilityStatus === `In Stock` ? "text-green-600" : product.availabilityStatus === `Low Stock` ? `text-orange-600` : `text-red-700`}`}
                 >

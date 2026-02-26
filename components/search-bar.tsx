@@ -27,19 +27,6 @@ const FiltersBar = () => {
     router.push(url);
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value.trim();
-    const params = new URLSearchParams(searchParams);
-
-    if (value) {
-      params.set("title", value);
-    } else {
-      params.delete("title"); // 👈 this triggers full fetch
-    }
-
-    router.replace(`${pathName}?${params.toString()}`);
-  };
-
   return (
     <form onSubmit={CreateSearchURL}>
       <input
@@ -48,7 +35,6 @@ const FiltersBar = () => {
         id=""
         placeholder="Search..."
         className="bg-neutral-300 p-2 rounded-lg w-full"
-        onChange={handleChange}
       />
     </form>
   );

@@ -1,5 +1,5 @@
 import { Category } from "@/app/types";
-import type { ProductsResponse, Product } from "./types";
+import type { ProductsResponse, Product } from "@/app/types";
 
 const API_URL = "http://localhost:4000";
 
